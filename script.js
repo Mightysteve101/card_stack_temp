@@ -64,27 +64,3 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             card_8.style.transform = '';
         }
-
-        // Add similar conditions for other cards as needed
-    };
-});
-
-
-
-/**
- *     card_1.addEventListener("scroll", function(){
-        moveUp1();
-    });
-
-    function moveUp1(){
-        card_1.style.transform = 'translateY(-200%) rotate(-45deg)';
-    }
-
-    card_2.addEventListener("scroll", function(){
-        moveUp2();
-    });
-
-    function moveUp2(){
-        card_2.style.transform = 'translateY(-200%) rotate(-45deg)';
-    }
- */
