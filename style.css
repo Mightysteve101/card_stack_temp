@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow-y: scroll; 
+    height: 100vh;
+}
+
+.wrapper{
+    height: 8000px;
+}
+
+.card-group{
+    height: 4000px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 30vh;
+}
+
+.card{
+    width: 40vmin;
+    height: 40vmin;
+    text-align: center;
+    color: white;
+    position: absolute;
+    line-height: 40vmin; /* Center the text vertically */    
+    border-radius: 2vmin;
+    aspect-ratio: 5 /7;
+    transition: transform 0.8s ease; 
+}
+
+.card-1{
+    background-color: black;
+}
+
+.card-2{
+    background-color: red;
+    transform: rotate(-15deg);
+    
+}
+
+.card-3{
+    background-color: green;
+    transform: rotate(-30deg);
+}
+
+.card-4{
+    background-color: blue;
+    transform: rotate(-45deg);
+}
+
+.card-5{
+    background-color: brown;
+    transform: rotate(-60deg);
+}
+
+.card-6{
+    background-color: yellow;  
+}
+
+.card-7{
+    background-color: purple;
+    transform: rotate(-15deg);
+}
+
+.card-8{
+    background-color: orange;
+    transform: rotate(-30deg); 
+}
